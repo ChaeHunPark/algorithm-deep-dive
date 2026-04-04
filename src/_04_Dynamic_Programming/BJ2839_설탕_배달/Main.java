@@ -18,8 +18,8 @@ public class Main {
         Arrays.fill(dp, INF);
 
         // 2. 기초 사실 적기
-        dp[3] = 1;
-        dp[5] = 1;
+        if(n >=3) dp[3] = 1;
+        if(n >=5) dp[5] = 1;
 
         // 3. 6kg 부터 수첩 채우기 시작
         for (int i = 6; i <= n; i++) {
@@ -35,6 +35,6 @@ public class Main {
                 dp[i] = Math.min(dp[i], dp[i - 5] + 1);
             }
         }
-        System.out.println(dp[n]);
+        System.out.println(dp[n] >= INF ? -1 : dp[n]);
     }
 }
