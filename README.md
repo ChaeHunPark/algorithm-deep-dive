@@ -22,8 +22,8 @@
 | **04** | **동적 계획법 (DP)** | ✅ | [1463(1로 만들기)](./src/_04_Dynamic_Programming/BJ1463_1로_만들기), [2839(설탕 배달)](./src/_04_Dynamic_Programming/BJ2839_설탕_배달), [14916(거스름돈)](./src/_04_Dynamic_Programming/BJ14916_거스름돈)                                                                                                          |
 | **05** | **탐욕 알고리즘 (Greedy)** | ✅ | [11047(동전 0)](./src/_05_Greedy/BJ11047_동전_0), [1931(회의실 배정)](./src/_05_Greedy/BJ1931_회의실_배정), [11399(ATM)](./src/_05_Greedy/BJ11399_ATM)                                                                                                                                                   |
 | **06** | **백트래킹 (Backtracking)** | ✅ | [9663(N-Queen)](./src/_06_Backtracking/BJ9663_N_Queen), [14888(연산자 끼워넣기)](./src/_06_Backtracking/BJ14888_연산자_끼워넣기)                                                                                                                                                                         |
-| **07** | **최단 경로 (Shortest Path)** | ✅ | [1753(최단경로)](./src/_07_Shortest_Path/BJ1753_최단경로), [1916(최소비용)](./src/_07_Shortest_Path/BJ1916_최소비용_구하기), 11404(플로이드)                                                                                                                                                                      |
-| **08** | **그래프 심화 (Union-Find/MST)** | ⏳ | 1717(집합의 표현), 1197(최소 스패닝 트리)                                                                                                                                                                                                                                                              |
+| **07** | **최단 경로 (Shortest Path)** | ✅ | [1753(최단경로)](./src/_07_Shortest_Path/BJ1753_최단경로), [1916(최소비용)](./src/_07_Shortest_Path/BJ1916_최소비용_구하기), [11404(플로이드)](./src/_07_Shortest_Path/BJ11404_플로이드)                                                                                                                              |
+| **08** | **그래프 심화 (Union-Find/MST)** | ⏳ | [1717(집합의 표현)](./src/_08_Union_Find_MST/BJ1717_집합의_표현), 1197(최소 스패닝 트리)                                                                                                                                                                                                                    |
 | **09** | **세그먼트 트리 / 구간 합** | ⏳ | 11659(구간 합 4), 2042(구간 합 구하기)                                                                                                                                                                                                                                                              |
 | **10** | **문자열 알고리즘 (Trie/KMP)** | ⏳ | 5052(전화번호 목록), 14425(문자열 집합)                                                                                                                                                                                                                                                               |
 
@@ -40,12 +40,6 @@
 ├── 05_Greedy/                 # 탐욕 알고리즘
 ├── 06_Backtracking/           # 백트래킹 및 가지치기
 ├── 07_Shortest_Path/          # 다익스트라, 플로이드-워셜
-│   ├── BJ1753_최단경로/
-│   │   ├── Main.java
-│   │   └── Analysis.md        # "BFS + DP" 관점의 다익스트라 분석
-│   └── BJ1916_최소비용_구하기/
-│       ├── Main.java
-│       └── Analysis.md        # 다익스트라 응용 및 성능 최적화 분석
 ├── 08_Graph_Advanced/         # 유니온 파인드, MST(크루스칼)
 ├── 09_Segment_Tree/           # 구간 합, 세그먼트 트리
 └── 10_String_Advanced/        # 트라이(Trie), KMP 패턴 매칭
